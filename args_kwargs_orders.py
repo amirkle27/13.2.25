@@ -17,7 +17,7 @@ def order_summery(*args,**kwargs):
     if "table_number" not in kwargs.keys():
         print(f"Table Number (Random): {table_number}")
     print("-"*50)
-order_summery("Cheeseburger","Small Salad", "Spaghetti Carbonara", "Mineral Water", "Orange Juice", customer_name= "Sarah", table_number=12, special_request = "Gluten Free Pasta")
+order_summery("Cheeseburger","Small Salad", "Spaghetti Carbonara", "Mineral Water", "Orange Juice", customer_name= "Sarah", table_number=12, special_request = "Gluten Free Spaghetti")
 
 
 order_summery("Shrimp Salad","Onion Quiche", "Risotto", "Diet Coke", "Carlsberg", customer_name= "Bob", special_request = "Extra sauce for risotto")
